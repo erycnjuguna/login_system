@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	font-family: sans-serif;
+	background-color: #f4f4f4;
+}
+nav {
+	width: 100%;
+	height: 63px;
+	background-color: #377ab7;
+}
+nav ul {
+	float: left;
+}
+nav .loginbtn, .loginbtn input[type="submit"]{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	padding: 10px 12px;
+	color: #fff;
+	background-color: #337ab7;
+	border: none;
+}
+.loginbtn input[type="submit"]:hover, .loginbtn:hover {
+	font-weight: bold;
+}
+nav ul li {
+	line-height: 63px;
+	color: #fff;
+	padding-left: 30px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.signup {
+	width: 50%;
+	margin: 100px auto;
+}
+.signup input {
+	width: calc(100% - 15px);
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+.signup input[type="text"],input[type="password"] {
+	height: 35px;
+	outline: none;
+}
+.signup input[type="submit"] {
+	width: 100%;
+	height: 45px;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #337ab7;
+	border: none;
+}
+.error {
+	background-color: #f45;
+	padding: 20px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.success {
+	background-color: teal;
+	padding: 20px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.container {
+	width: 300px;
+	margin: 100px auto;
+	background-color: #337ab7;
+	height: 200px;
+	box-shadow: 0px 3px 5px rgba(0,0,0,.5);
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	line-height: 1.5em;
+}
+.container h3 {
+	margin-top: 50px;
+	font-family: BlowBrush;
+}
